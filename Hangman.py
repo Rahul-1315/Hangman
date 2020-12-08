@@ -5,11 +5,11 @@ print ("\thello {}, Time to play Hangman".format(name))
 print("-"*50)
 time.sleep(1)
 while True:    
-    print ("\n\tStart Guessing, you have 15 chances!")
+    
     time.sleep(0.5)
     # What level of Difficulty does the user wishes to play is being asked.
     n= input("\n\t{} choose level of difficult\n\t1.Beginner\n\t2.Intermediate\n\t3.Pro\n\t".format(name))
-    
+    print ("\n\tStart Guessing, you have 15 chances!")
     if n == "1":
     	# For beginner the questions are from 0 - 3.
         print("\n\tselect a number from (0-3)")
